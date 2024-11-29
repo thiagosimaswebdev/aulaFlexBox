@@ -1,0 +1,147 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 13vh;
+  background-color: #d9d9d9;
+  background-color: #ff0000;
+  background-color: #00ff00;
+  background-color: #0000ff;
+  background-color: Salmon;
+  background-color: #fa8072;
+  background-color: rgb(250, 128, 114);
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: flex-end;
+  justify-content: center;
+  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+}
+
+body {
+  font-family: "Inika";
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav {
+  width: 50%;
+  width: 60vw;
+}
+
+ul {
+  display: flex;
+  justify-content: end;
+  margin: 1em;
+  list-style: none;
+}
+
+li {
+  font-size: 32px;
+  font-size: 2rem;
+  font-size: 2em;
+  text-transform: lowercase;
+  text-transform: uppercase;
+  text-transform: capitalize;
+}
+
+a {
+  display: flex;
+  text-decoration: underline;
+  text-decoration: overline;
+  text-decoration: none;
+  color: #000000;
+  padding: 14px;
+  display: inline-block;
+  transition: background-color 0.3s ease; /* animação suave ao passar o mouse */
+  cursor: pointer; /* muda o cursor quando passar o mouse */
+  border-radius: 2em;
+}
+
+a:hover {
+  background-color: #949393;
+}
+
+.containerHistoria {
+  width: 40%;
+  height: 70vh;
+  margin: 2em;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.containerHistoria h2 {
+  font-size: 2em;
+  font-weight: 700;
+}
+.containerHistoria p {
+  width: 100%;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.containerLogistica {
+  width: 40%;
+  height: 70vh;
+  margin: 1em;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.containerLogistica p {
+  width: 70%;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contato-btn {
+  background-color: #d9d9d9;
+  font-size: 2em;
+  font-weight: 700;
+  width: 10vw;
+  height: 5vh;
+  border-radius: 2em;
+  border: none;
+  transition: background-color 0.3s ease; /* animação suave ao passar o mouse */
+  cursor: pointer; /* muda o cursor quando passar o mouse */
+  display: inline-block;
+}
+
+.contato-btn:hover {
+  background-color: #949393;
+}
+
+.contato-link {
+  display: inline-block;
+  padding: 0;
+}
+
+footer {
+  background-color: #001c43;
+  height: 11vh;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
